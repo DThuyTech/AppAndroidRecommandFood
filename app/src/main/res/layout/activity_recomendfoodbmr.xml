@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/gardiant"
+    tools:context=".RecommanFoodBmi">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Gợi ý món ăn trong ngày"
+        android:textStyle="bold">
+
+    </TextView>
+
+
+
+    <TableRow>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/img1"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <LinearLayout android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text ="Ten mon"
+                android:textSize="20dp"
+                android:id="@+id/txt_tenmonbuoisang"
+                />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text ="Calories"
+                android:textSize="20dp"
+                android:id="@+id/txt_calomonbuoisang"/>
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow>
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <LinearLayout android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text ="Ten mon"
+                android:textSize="20dp"
+                android:id="@+id/txt_tenmonbuoitrua"
+                />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text ="Calories"
+                android:textSize="20dp"
+                android:id="@+id/txt_calomonbuoitrua"/>
+        </LinearLayout>
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            tools:srcCompat="@tools:sample/avatars"/>
+
+        <LinearLayout android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text ="Ten mon"
+                android:textSize="20dp"
+                android:id="@+id/txt_tenmonbuoitoi"
+                />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text ="Calories"
+                android:textSize="20dp"
+                android:id="@+id/txt_calomonbuoitoi"/>
+        </LinearLayout>
+    </TableRow>
+
+</TableLayout>
